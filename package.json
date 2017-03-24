@@ -1,0 +1,15 @@
+{
+  "name": "Angular app",
+  "version": "1.0.0",
+  "description": "Angular JS practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Innocent Nkubito",
+  "license": "Inno Inc.",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "express": "^4.15.2"
+  }
+}

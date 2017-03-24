@@ -1,0 +1,157 @@
+
+body{
+    margin-top: 30px;
+}
+
+.headerdiv{
+    margin-bottom: 10px;
+}
+
+.myfont{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.toplinks li{
+    text-decoration: none;
+    list-style-type: none; 
+}
+.toplinks a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+.unstyle a{
+    text-decoration: none;
+    color:black;
+    list-style-type: none;
+}
+
+.white{
+    color: white;
+}
+
+
+.nav.navbar-nav li a{
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.nav.navbar-nav li a:hover{
+    background-color: gray;
+}
+
+
+.bolder{
+    font-size: x-large;
+}
+
+
+.red{
+    color:#cd2418;
+    font-size: 20px;
+}
+
+h4{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color:#cd2418;
+}
+
+.redall{
+    background-color: #cd2418;
+}
+
+.form-control{
+    background-color: lightgray;
+}
+
+
+.mycarousel{ 
+
+    width: 400px;
+    margin-bottom: 10px;
+    /*background-color: rgba(205,36,24,0.9);*/
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color: #cd2418;
+   height: 250px;
+}
+
+.glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-chevron-right{
+    font-size: 50px;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width:350px; 
+margin-bottom: 15px;
+}
+
+.buyerinfo {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.image {
+    height: 300px;
+    width : 300px;
+    border : 2px solid black;
+    position: relative;
+    left: 25px;
+    display: inline-block;
+}
+
+.quantity {
+    height: 300px;
+    width : 300px;
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    display: inline-block;
+    left: 25px;
+}
+.info{
+    height: 300px;
+    width : 300px;
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    display: inline-block;
+    left: 25px;
+    padding: 25px;
+
+}
+
+.buyer {
+    height: 600px;
+    width : 400px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    display: inline-block;
+}
+.cc {
+
+    height: 400px;
+    width : 400px;
+    border : 2px solid black;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    display: inline-block;
+
+}
+
+.form-control{
+    width: 60%;
+}
