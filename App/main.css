@@ -103,38 +103,32 @@ margin-bottom: 15px;
 }
 
 .image {
-    height: 300px;
-    width : 300px;
+    height: 30%;
+    width : 30%;
     border : 2px solid black;
     position: relative;
     left: 25px;
+    padding: 25px;
     display: inline-block;
+    border-radius: 5px;
 }
 
-.quantity {
-    height: 300px;
-    width : 300px;
-    border: 2px solid black;
-    position: relative;
-    float: right;
-    display: inline-block;
-    left: 25px;
-}
 .info{
-    height: 300px;
-    width : 300px;
+    height: 30%;
+    width : 30%;
     border: 2px solid black;
+    border-radius: 5px;
     position: relative;
-    float: right;
     display: inline-block;
-    left: 25px;
+    margin: 0 auto;
     padding: 25px;
+    left: 25px;
 
 }
 
 .buyer {
     height: 600px;
-    width : 400px;
+    width : 50%;
     position: relative;
     top: 25px;
     left: 25px;
@@ -142,15 +136,19 @@ margin-bottom: 15px;
 }
 .cc {
 
-    height: 400px;
-    width : 400px;
-    border : 2px solid black;
+    height: 600px;
+    width :40%;
     position: relative;
+    float: right;
     top: 25px;
     left: 25px;
     display: inline-block;
 
+
 }
+/*.page {
+    background-color: lightblue;
+} */
 
 .form-control{
     width: 60%;
