@@ -221,24 +221,27 @@
           
 
             <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" >
                   <dl class="row">
                     <dt class="col-sm-3">Purchaser:</dt>
                     <dd class="col-sm-9">{{firstName + " " + lastName}}</dd>
-
-                    <dt class="col-sm-3">Address:</dt>
-                    <dd class="col-sm-9">{{addr + " " + city + " " + zip}}</dd>
-
-                    <dt class="col-sm-3">Total Price</dt>
-                    <dd class="col-sm-9">{{total}}</dd>
-
-                    <dt class="col-sm-3">Shipping Address:</dt>
-                    <dd class="col-sm-9">{{addr + " " + city + " " + zip}}</dd>
-
-                    
-
                   </dl>
+
+                  <dl class="row">
+                      <dt class="col-sm-3">Address:</dt>
+                      <dd class="col-sm-9">{{addr + " ," + city + " ," + zip}}</dd>
+                  </dl>
+
+                  <dl class="row">
+                      <dt class="col-sm-3">Total Price:</dt>
+                      <dd class="col-sm-9">${{total}}</dd>
+                  </dl>
+                  <dl class="row">
+                      <dt class="col-sm-3">Shipping Address:</dt>
+                    <dd class="col-sm-9">{{addr + " ," + city + " ," + zip}}</dd>
+                  </dl>
+
                 </div>
               </div>
             </div>

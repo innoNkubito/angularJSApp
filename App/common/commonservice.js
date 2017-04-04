@@ -13,4 +13,7 @@ angular.module('commonmodule').service('commonservice', function($http, $q){
 		return deffered.promise;
 	}
 
+	this.firstName;
+	this.lastName;
+
 });

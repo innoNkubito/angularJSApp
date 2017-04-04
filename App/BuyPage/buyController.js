@@ -1,4 +1,4 @@
-angular.module("buyModule").controller('buyCtrl', function($scope){
+angular.module("buyModule").controller('buyCtrl', function($scope, commonservice){
 
 	$scope.productData = JSON.parse(localStorage.getItem("currentGuitar"));
 	$scope.quantity = 1 ;
